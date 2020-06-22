@@ -27,14 +27,7 @@ struct Particle {
 
 class ParticleFilter {
 
-  int num_particles;
-  bool is_initialized;
-  std::vector<double> weights;  
-
  public:
-
-  std::vector<Particle> particles;
-
   // Constructor
   // @param num_particles Number of particles
   ParticleFilter() : num_particles(0), is_initialized(false) {}
